@@ -12,12 +12,12 @@ body {
 }
   
   
-.header {
-  padding: 80px;
-  text-align: center;
-  background: #F8F88B;
-  color: black;
-}  
+  .header {
+    padding: 80px;
+    text-align: center;
+    background: #F8F88B;
+    color: black;
+  }  
   
   .navbar {
     overflow: hidden;
@@ -25,26 +25,38 @@ body {
   }
   
   .navbar a {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
   }
   
   .navbar a.right {
-  float: right;
+    float: right;
   }
   
   .navbar a:hover {
-  background-color: #ddd;
-  color: black;
+    background-color: #ddd;
+    color: black;
   }
   
   .row {  
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .side {
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+
+  .main {   
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
   }
   
 </style>
